@@ -17,3 +17,11 @@ div.container {
 h1 {
     font-size: 48pt;
 }
+
+
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 24pt;
+    }
+}
