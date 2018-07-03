@@ -2,24 +2,40 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
+    position: relative;
     font-family: 'Cutive Mono', monospace;
+    background: linear-gradient(45deg, #FFFCF7 , #C2D8B9);
+    color: #738290;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
 }
 
 div.container {
     max-width: 100%;
     text-align: center;
-    margin: 50px 50px 0 50px;
+    margin: 0 50px 0 50px;
 }
 
 h1 {
     font-size: 48pt;
+    margin: 0;
 }
 
+pre {
+    font-size: 18pt;
+}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 475px) {
 
     h1 {
         font-size: 24pt;
